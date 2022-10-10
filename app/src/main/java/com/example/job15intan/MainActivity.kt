@@ -16,17 +16,17 @@ class MainActivity : AppCompatActivity() {
 
         tombol.setOnClickListener {
             Toast.makeText(this, "Maulidda intan nur aini", Toast.LENGTH_SHORT).show()
+			}
 
             val tombolkls = findViewById<Button>(R.id.tombolKELAS)
 
             tombolkls.setOnClickListener {
                 Toast.makeText( this, "XI PPLG 2", Toast.LENGTH_SHORT).show()
+				}
 
                 val tombolnis = findViewById<Button>(R.id.tombolNIS)
                 tombolnis.setOnClickListener {
                     Toast.makeText(this, "3008", Toast.LENGTH_SHORT).show()
-                }
-            }
         }
     }
 }
